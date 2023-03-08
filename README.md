@@ -6,9 +6,9 @@
 
 This project has two code: 
 
-cut_image.py make image split. each sub images can have Rotate, horizontal flip, vertical flip options
+cut_image.py make image split. each sub images can have Rotate, horizontal flip, vertical flip options. split images will save in '/sub' folder
 
-merge_image.py make original image from sub images made by cut_image.py
+merge_image.py make original image from sub images made by cut_image.py. sub images should place in '/sub' folder
 
 Image should be not simple image. because merge algorithm is find out most similar edge between sub images.
 
